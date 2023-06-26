@@ -1,0 +1,82 @@
+body {
+    background-color: #1B244A;
+    color: #EEEEEE;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 98vh;
+    margin: auto;
+}
+
+.team-score-wrapper {
+    text-align: center;
+}
+
+.team-name {
+    text-transform: uppercase;
+    font-family: 'Jost', sans-serif;
+    font-size: 2.5rem;
+    margin: 21px 0;
+    line-height: 80%;
+}
+
+.score {
+    background-color: #080001;
+    color: #8d99ae;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    display: grid;
+    place-content: center;
+    width: 9.688rem; 
+    height: 7.5rem;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.score-text {
+    font-size: 5.625rem;
+    position: absolute;
+    top: -45%;
+    left: 33%;
+}
+
+.score-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.score-btn {
+    background-color: transparent;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 2.813rem;
+    height: 2.813rem;
+    border: 2.5px #9AABD8 solid;
+    border-radius: 5px;
+    font-size: 1.125rem;
+}
+
+.score-btn:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+.reset-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem 1.5rem;
+    background-color: #f6bd60;
+    color: #1B244A;
+    border: none;
+    border-bottom-right-radius: 5px;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2rem;
+}
+
+.reset-btn:hover {
+    background-color: #80ed99;
+}

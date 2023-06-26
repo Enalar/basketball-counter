@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basketball counter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <button class="reset-btn" onclick="resetTheGame()">new game</button>
+        <div class="team-score-wrapper">
+            <h2 class="team-name">Home</h2>
+            <div class="score">
+                <h2 id="home-score" class="score-text">0</h2>
+            </div>
+            <div class="score-btn-wrapper">
+                <button class="score-btn" onclick="add1ScoreToHome()">+1</button>
+                <button class="score-btn" onclick="add2ScoreToHome()">+2</button>
+                <button class="score-btn" onclick="add3ScoreToHome()">+3</button>
+            </div>
+        </div>
+
+        <div class="team-score-wrapper">
+            <h2 class="team-name">Guest</h2>
+            <div class="score">
+                <h2 id="guest-score" class="score-text">0</h2>
+            </div>
+            <div class="score-btn-wrapper">
+                <button class="score-btn" onclick="add1ScoreToGuest()">+1</button>
+                <button class="score-btn" onclick="add2ScoreToGuest()">+2</button>
+                <button class="score-btn" onclick="add3ScoreToGuest()">+3</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
